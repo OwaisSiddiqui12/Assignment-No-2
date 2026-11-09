@@ -1,0 +1,475 @@
+:root {
+    scrollbar-gutter: unset !important;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.nav-link {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s ease-out;
+}
+
+.nav-link:hover {
+    background-color: orange;
+    padding: 8px 20px 8px 20px;
+    color: white;
+}
+
+.active1 {
+    background-color: orange;
+    color: white;
+}
+
+input:hover {
+    box-shadow: 0px 0px 10px inset orange;
+}
+
+.btn-solid:hover {
+    background-color: orange;
+}
+
+.mobiles {
+    margin-top: 100px;
+}
+
+.mobiles img {
+    height: 300px;
+    width: 250px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 0.3s ease;
+}
+
+.mobiles img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px #0F172A;
+}
+
+.brands {
+    margin-top: 60px;
+}
+
+.brands h1 {
+    font-size: 60px;
+    font-family: "Boldonse", system-ui;
+    color: orange;
+    border-bottom: 1px solid #0F172A;
+}
+
+.brands-img {
+    column-gap: 100px;
+    row-gap: 50px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.brands-img img {
+    height: 90px;
+    width: 200px;
+    border-radius: 15px;
+    transition: 0.3s ease;
+    border-right: 5px solid #0F172A;
+    border-bottom: 5px solid #0F172A;
+}
+
+.brands-img img:nth-child(1):hover {
+    background-color: yellow;
+    transform: translateX(-10px);
+    padding-right: 20px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-radius: 20px;
+}
+
+.brands-img img:nth-child(2):hover {
+    background-color: orange;
+    transform: translateX(-10px);
+    padding-right: 20px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-radius: 20px;
+}
+
+.brands-img img:nth-child(3):hover {
+    background-color: greenyellow;
+    transform: translateX(-10px);
+    padding-right: 20px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-radius: 20px;
+}
+
+.brands-img img:nth-child(4):hover {
+    background-color: orangered;
+    transform: translateX(-10px);
+    padding-right: 20px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-radius: 20px;
+}
+
+.brands-img img:nth-child(5):hover {
+    background-color: orange;
+    transform: translateX(-10px);
+    padding-right: 20px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-radius: 20px;
+}
+
+.brands-img img:nth-child(6):hover {
+    background-color: lime;
+    transform: translateX(-10px);
+    padding-right: 20px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-radius: 20px;
+}
+
+.brands-img img:nth-child(7):hover {
+    background-color: gold;
+    transform: translateX(-10px);
+    padding-right: 20px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-radius: 20px;
+}
+
+.mobile-phone {
+    margin-top: 60px;
+}
+
+.mobile-phone h1 {
+    font-size: 60px;
+    font-family: "Boldonse", system-ui;
+    color: #0F172A;
+    border-bottom: 1px solid #0F172A;
+}
+
+.card-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+.card-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-btn a:last-child {
+    background-color: orange;
+    color: black;
+}
+
+.card-btn a:last-child:hover {
+    background-color: #0F172A;
+    color: white;
+}
+
+.card-btn a:first-child:hover {
+    color: white;
+}
+
+.phones {
+    margin-top: 80px;
+}
+
+.card {
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 20px orange, inset 0px 0px 20px #0F172A;
+}
+
+.explore {
+    margin-bottom: 50px;
+}
+
+.explore a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #0F172A;
+    color: white;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    font-size: large;
+    transition: 0.3s ease;
+}
+
+.explore a:hover {
+    background-color: orange;
+    color: #0F172A;
+}
+
+.footer {
+    background-color: #0F172A;
+    min-height: 300px;
+}
+
+.icons {
+    transition: 0.3s ease;
+}
+
+.icons:hover {
+    transform: translateY(-10px);
+}
+
+
+/* About */
+
+.about-img {
+    height: 600px;
+    background-image: url(assets/carousel2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.content {
+    margin-left: 80px;
+}
+
+.content h1:nth-child(1) {
+    margin-top: 150px;
+    font-family: "Boldonse", system-ui;
+}
+
+.content h1:nth-child(2) {
+    color: orange;
+    font-family: "Boldonse", system-ui;
+}
+
+.content h4 {
+    max-width: 400px;
+}
+
+.mobiles-about {
+    gap: 25px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.mobiles-about img {
+    height: 200px;
+    width: 250px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 0.3s ease;
+}
+
+.mobiles-about img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px #0F172A;
+}
+
+
+.delivery {
+    margin-top: 100px;
+    padding-top: 70px;
+}
+
+.delivery h1 {
+    font-size: 30px;
+}
+
+.numbers {
+    margin-top: 80px;
+    gap: 100px;
+}
+
+.number1 p:nth-child(1) {
+    background-color: orange;
+    font-size: xx-large;
+
+}
+
+.number1 p:nth-child(2) {
+    font-size: large;
+    margin-top: 10px;
+}
+
+.number2 p:nth-child(1) {
+    background-color: orange;
+    font-size: xx-large;
+
+}
+
+.number2 p:nth-child(2) {
+    font-size: large;
+    margin-top: 10px;
+}
+
+.number3 p:nth-child(1) {
+    background-color: orange;
+    font-size: xx-large;
+}
+
+.number3 p:nth-child(2) {
+    font-size: large;
+    margin-top: 10px;
+}
+
+.delivery img {
+    margin-top: 50px;
+}
+
+
+
+
+/* Contact */
+.contact-intro {
+    margin-top: 100px;
+}
+
+.contact-intro h1 {
+    font-family: "Poppins", sans-serif;
+}
+
+.contact-intro p {
+    font-family: sans-serif;
+    color: orange;
+}
+
+.contact {
+    border: 3px solid #0F172A;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.contact h1 {
+    font-size: x-large;
+    margin-top: 30px;
+    color: #0F172A;
+}
+
+.contact p {
+    font-size: large;
+    font-weight: 500;
+    color: #0F172A;
+}
+
+.contact a {
+    color: orange;
+    transition: 0.3s ease;
+}
+
+.bi1 {
+    border: 4px solid orange;
+    border-radius: 20px;
+    padding: 10px;
+    color: #0F172A;
+    transition: 0.3s ease;
+}
+
+.contact a:hover {
+    color: #0F172A;
+}
+
+.contact:hover {
+    box-shadow: 0px 0px 20px orange;
+    color: #0F172A;
+    transform: translateY(-15px);
+}
+
+.contact:hover .bi1 {
+    box-shadow: 0px 0px 15px #0F172A;
+    color: #0F172A;
+}
+
+
+/* Products */
+
+.product {
+    font-size: 60px;
+    font-family: "Boldonse", system-ui;
+    color: orange;
+    border-bottom: 1px solid #0F172A;
+}
+
+
+/* Services */
+
+.services-img {
+    height: 600px;
+    background-image: url(assets/carousel2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.service {
+    border: 3px solid #0F172A;
+    border-radius: 30px;
+    width: 350px;
+    background-color: white;
+    transition: 0.3s ease;
+}
+
+.service h1 {
+    font-size: x-large;
+    margin-top: 30px;
+    color: #0F172A;
+    font-family: "Poppins", sans-serif;
+}
+
+.service p {
+    font-size: large;
+    color: #0F172A;
+}
+
+.service .bi1 {
+    display: inline-block;
+    font-size: 70px;
+    padding: 10px 30px;
+}
+
+.service:hover {
+    box-shadow: 0px 0px 20px orange;
+    color: #0F172A;
+    transform: translateY(-15px);
+}
+
+.service:hover .bi1 {
+    box-shadow: 0px 0px 15px #0F172A;
+    color: #0F172A;
+}
+
+
+@media (max-width:783px) {
+    .nav-link {
+        margin-right: 172px;
+    }
+
+    .foot-logo {
+        display: flex;
+        justify-content: left;
+    }
+
+    .content {
+        margin-left: 10%;
+    }
+
+    .mobiles-about {
+        gap: 10px;
+    }
+
+    .mobiles-about img {
+        height: 110px;
+        width: 160px;
+    }
+
+    .service {
+        width: 100%;
+    }
+}
